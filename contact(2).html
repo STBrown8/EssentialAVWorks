@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Request a Quote - Essential AV Works</title>
+<meta name="description" content="Request a quote from Essential AV Works for your event, production, or residential AV project in Tampa, FL.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav>
+  <a href="index.html" class="nav-logo"><img src="logo.png" alt="Essential AV Works" class="logo-img"></a>
+  <button class="hamburger" id="hamburger" aria-label="Menu">
+    <span></span><span></span><span></span>
+  </button>
+  <ul class="nav-links" id="nav-links">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="contact.html" class="nav-cta">Request a Quote</a></li>
+  </ul>
+</nav>
+
+<div class="page-hero">
+  <span class="section-label">Get in Touch</span>
+  <h1>Request a Quote</h1>
+  <p>Share the details of your project or technical needs and we'll follow up with the right solution.</p>
+</div>
+
+<section style="background: var(--bg); padding: 100px 60px;">
+  <div class="contact-grid">
+
+    <!-- LEFT -->
+    <div class="contact-info">
+      <h3>What Happens Next</h3>
+      <p>Every inquiry is reviewed and responded to personally. We take the time to understand your project before recommending a solution.</p>
+
+      <div class="contact-details">
+        <div class="contact-detail">
+          <span class="contact-detail-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s7-7.5 7-12a7 7 0 0 0-14 0c0 4.5 7 12 7 12z"/><circle cx="12" cy="9" r="2.5"/></svg></span>
+          <span>Tampa, FL - Serving Central Florida</span>
+        </div>
+        <div class="contact-detail">
+          <span class="contact-detail-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="5" width="16" height="15" rx="1"/><line x1="4" y1="10" x2="20" y2="10"/><line x1="8" y1="3" x2="8" y2="7"/><line x1="16" y1="3" x2="16" y2="7"/></svg></span>
+          <span>Available for single events and ongoing engagements</span>
+        </div>
+        <div class="contact-detail">
+          <span class="contact-detail-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M4 5h16v10H9l-4 4V5z"/></svg></span>
+          <span>Initial consultation is complimentary</span>
+        </div>
+      </div>
+
+      <div style="margin-top: 48px;">
+        <h3 style="font-family: 'Bebas Neue'; font-size: 1.3rem; letter-spacing: 2px; margin-bottom: 20px;">Our Process</h3>
+        <div style="display: flex; flex-direction: column; gap: 16px;">
+          <div style="display: flex; gap: 16px; align-items: flex-start;">
+            <div style="width: 32px; height: 32px; background: var(--gold); color: var(--bg); display: flex; align-items: center; justify-content: center; font-weight: 700; font-size: 0.85rem; flex-shrink: 0;">1</div>
+            <div>
+              <div style="font-weight: 600; font-size: 0.9rem; margin-bottom: 4px;">Submit Your Request</div>
+              <div style="color: var(--muted); font-size: 0.84rem;">Share your event details, timeline, and service needs.</div>
+            </div>
+          </div>
+          <div style="display: flex; gap: 16px; align-items: flex-start;">
+            <div style="width: 32px; height: 32px; background: var(--gold); color: var(--bg); display: flex; align-items: center; justify-content: center; font-weight: 700; font-size: 0.85rem; flex-shrink: 0;">2</div>
+            <div>
+              <div style="font-weight: 600; font-size: 0.9rem; margin-bottom: 4px;">Consultation</div>
+              <div style="color: var(--muted); font-size: 0.84rem;">We'll connect to discuss your vision and clarify any details.</div>
+            </div>
+          </div>
+          <div style="display: flex; gap: 16px; align-items: flex-start;">
+            <div style="width: 32px; height: 32px; background: var(--gold); color: var(--bg); display: flex; align-items: center; justify-content: center; font-weight: 700; font-size: 0.85rem; flex-shrink: 0;">3</div>
+            <div>
+              <div style="font-weight: 600; font-size: 0.9rem; margin-bottom: 4px;">Custom Quote</div>
+              <div style="color: var(--muted); font-size: 0.84rem;">A clear proposal based on your specific project.</div>
+            </div>
+          </div>
+          <div style="display: flex; gap: 16px; align-items: flex-start;">
+            <div style="width: 32px; height: 32px; background: var(--gold); color: var(--bg); display: flex; align-items: center; justify-content: center; font-weight: 700; font-size: 0.85rem; flex-shrink: 0;">4</div>
+            <div>
+              <div style="font-weight: 600; font-size: 0.9rem; margin-bottom: 4px;">Confirm &amp; Execute</div>
+              <div style="color: var(--muted); font-size: 0.84rem;">Secure your date and leave the technical details to us.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- FORM -->
+    <div class="contact-form-wrap">
+      <h3>Let's Talk About Your AV Needs</h3>
+      <form action="https://formspree.io/f/meerylab" method="POST">
+        <div class="form-row">
+          <div class="form-group">
+            <label for="name">Full Name</label>
+            <input type="text" name="name" id="name" placeholder="First Last" required>
+          </div>
+          <div class="form-group">
+            <label for="email">Email Address</label>
+            <input type="email" name="email" id="email" placeholder="name@email.com" required>
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="form-group">
+            <label for="phone">Phone Number</label>
+            <input type="tel" name="phone" id="phone" placeholder="(813) 555-0000">
+          </div>
+          <div class="form-group">
+            <label for="event_date">Project / Event Date</label>
+            <input type="date" name="event_date" id="event_date">
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="service">Service Needed</label>
+          <select name="service" id="service" required>
+            <option value="" disabled selected>Select a service...</option>
+            <option value="live_sound">Live Sound &amp; Event Production</option>
+            <option value="residential">Residential AV</option>
+            <option value="consulting">Consulting &amp; Training</option>
+            <option value="other">Not Sure - Let's Talk</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="venue">Venue / Location / Organization</label>
+          <input type="text" name="venue" id="venue" placeholder="Venue name, business, church, or general area">
+        </div>
+        <div class="form-group">
+          <label for="message">Project Details</label>
+          <textarea name="message" id="message" placeholder="Describe your project - type of environment, technical needs, goals, timeline, or any specific questions." required></textarea>
+        </div>
+        <input type="submit" value="Submit Request" class="btn-primary" style="width: 100%; font-size: 0.9rem; cursor: pointer; border: none;">
+      </form>
+    </div>
+
+  </div>
+</section>
+
+<footer>
+  <div class="footer-brand">
+    <a href="index.html" class="nav-logo"><img src="logo.png" alt="Essential AV Works" class="logo-img"></a>
+    <p>Professional Audio Visual services based in Tampa, FL.</p>
+  </div>
+  <div class="footer-col">
+    <h4>Services</h4>
+    <ul>
+      <li><a href="index.html#services">Live Sound &amp; Event Production</a></li>
+      <li><a href="index.html#services">Residential AV</a></li>
+      <li><a href="index.html#services">Consulting &amp; Training</a></li>
+    </ul>
+  </div>
+  <div class="footer-col">
+    <h4>Company</h4>
+    <ul>
+      <li><a href="about.html">About Us</a></li>
+      <li><a href="contact.html">Request a Quote</a></li>
+    </ul>
+  </div>
+</footer>
+<div class="footer-bottom">&copy; 2025 Essential AV Works LLC &middot; Tampa, FL &middot; All Rights Reserved</div>
+
+<script>
+  const btn = document.getElementById('hamburger');
+  const nav = document.getElementById('nav-links');
+  btn.addEventListener('click', () => {
+    btn.classList.toggle('open');
+    nav.classList.toggle('open');
+  });
+</script>
+</body>
+</html>

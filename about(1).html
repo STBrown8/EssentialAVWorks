@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>About - Essential AV Works</title>
+<meta name="description" content="Learn about Essential AV Works and our founder, Ty Brown - a professional AV technician and audio engineer based in Tampa, FL.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav>
+  <a href="index.html" class="nav-logo"><img src="logo.png" alt="Essential AV Works" class="logo-img"></a>
+  <button class="hamburger" id="hamburger" aria-label="Menu">
+    <span></span><span></span><span></span>
+  </button>
+  <ul class="nav-links" id="nav-links">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="contact.html" class="nav-cta">Request a Quote</a></li>
+  </ul>
+</nav>
+
+<div class="page-hero">
+  <span class="section-label">Our Story</span>
+  <h1>About Essential AV Works</h1>
+  <p>Essential AV Works is a Tampa-based AV consulting and technical services company - founded on over 10 years of hands-on experience in professional audio visual operations, live sound, and event production.</p>
+</div>
+
+<!-- ABOUT FOUNDER -->
+<section style="background: var(--bg); padding: 100px 60px;">
+  <div class="about-grid">
+    <div>
+      <div class="about-photo-box">
+        <img src="profile.jpeg" alt="Ty Brown - Founder, Essential AV Works">
+      </div>
+      <div style="margin-top: 20px; display: flex; gap: 12px;">
+        <div style="flex: 1; background: var(--surface); border: 1px solid var(--border); padding: 20px; text-align: center;">
+          <div style="font-family: 'Bebas Neue'; font-size: 2.2rem; color: var(--gold);">10+</div>
+          <div style="font-size: 0.72rem; letter-spacing: 2px; text-transform: uppercase; color: var(--muted); margin-top: 4px;">Years Experience</div>
+        </div>
+        <div style="flex: 1; background: var(--surface); border: 1px solid var(--border); padding: 20px; text-align: center;">
+          <div style="font-family: 'Bebas Neue'; font-size: 2.2rem; color: var(--gold);">500+</div>
+          <div style="font-size: 0.72rem; letter-spacing: 2px; text-transform: uppercase; color: var(--muted); margin-top: 4px;">Events Served</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="about-content">
+      <span class="section-label">Meet the Founder</span>
+      <h2 class="section-title" style="text-align: left;">Ty Brown</h2>
+
+      <p>Ty Brown is an enterprise AV/IT specialist and professional audio engineer with over a decade of comprehensive experience bridging live production, systems design, and technical operations.</p>
+
+      <p>As the principal operator of Essential AV Works LLC, he has spent years delivering reliable, precision engineered live sound and residential AV solutions for houses of worship, private events, and homeowners. Every project gets the same level of care, precision, and expertise.</p>
+
+      <div style="margin-top: 40px;">
+        <a href="contact.html" class="btn-primary" style="margin-right: 16px;">Request a Quote</a>
+        <a href="index.html#services" class="btn-outline">View Services</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="cta-strip">
+  <h2>Let's Work Together</h2>
+  <p>Tell us about your project and we'll put together the right solution.</p>
+  <a href="contact.html" class="btn-dark">Request a Quote</a>
+</div>
+
+<footer>
+  <div class="footer-brand">
+    <a href="index.html" class="nav-logo"><img src="logo.png" alt="Essential AV Works" class="logo-img"></a>
+    <p>Professional Audio Visual services based in Tampa, FL.</p>
+  </div>
+  <div class="footer-col">
+    <h4>Services</h4>
+    <ul>
+      <li><a href="index.html#services">Live Sound &amp; Event Production</a></li>
+      <li><a href="index.html#services">Residential AV</a></li>
+      <li><a href="index.html#services">Consulting &amp; Training</a></li>
+    </ul>
+  </div>
+  <div class="footer-col">
+    <h4>Company</h4>
+    <ul>
+      <li><a href="about.html">About Us</a></li>
+      <li><a href="contact.html">Request a Quote</a></li>
+    </ul>
+  </div>
+</footer>
+<div class="footer-bottom">&copy; 2025 Essential AV Works LLC &middot; Tampa, FL &middot; All Rights Reserved</div>
+
+<script>
+  const btn = document.getElementById('hamburger');
+  const nav = document.getElementById('nav-links');
+  btn.addEventListener('click', () => {
+    btn.classList.toggle('open');
+    nav.classList.toggle('open');
+  });
+</script>
+</body>
+</html>
